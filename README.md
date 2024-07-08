@@ -259,5 +259,6 @@ export default Home;
 ```
 
 ## Output:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7oWzOGsUDqk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![alt text](https://img.youtube.com/vi/video-id/0.jpg)](https://www.youtube.com/watch?v=7oWzOGsUDqk)
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/7oWzOGsUDqk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 <!-- [!video](https://youtu.be/7oWzOGsUDqk) -->
