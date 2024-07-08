@@ -11,6 +11,7 @@ import Contact from './components/Contact';
 import Blogs from './components/Blogs';
 import About from './components/About';
 
+
 function App() {
   return (
     <div className="max-w-screen-lg mx-auto">
@@ -26,6 +27,7 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
         <Route path="blogs" element={<Blogs />} />
+    
        
 
       </Routes>

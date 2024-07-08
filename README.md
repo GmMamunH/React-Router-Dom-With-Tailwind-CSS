@@ -100,14 +100,14 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-<b>import { BrowserRouter } from "react-router-dom";</b>
+import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <b><BrowserRouter></b>
+    <BrowserRouter>
       <App />
-    <b></BrowserRouter></b>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
@@ -118,6 +118,11 @@ reportWebVitals();
 ```
 
 ### We wrap our content first with <BrowserRouter>.
+
+import { BrowserRouter } from "react-router-dom";
+<BrowserRouter>
+<App />
+</BrowserRouter>
 
 ## 10. Now we will use our Router in our app.js file.
 
@@ -170,6 +175,7 @@ export default App;
 - Setting the path to \* will act as a catch-all for any undefined URLs. This is great for a 404 error page.
 
 ## Pages / Components
+
 - The NavBar component has <Outlet> and <Link> elements.
 
 - The <Outlet> renders the current route selected.
@@ -211,16 +217,19 @@ export default NavBar;
 
 ## Make other page/components
 
-## Nested Routher 
+## Nested Routher
 
 - Home Page
+
 ```jsx
 import React from "react";
 import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div>
-      <h1 className="text-red-500 underline text-3xl text-center">Home Page </h1>
+      <h1 className="text-red-500 underline text-3xl text-center">
+        Home Page{" "}
+      </h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam et
         voluptate rerum eaque adipisci soluta placeat ad temporibus, laborum
@@ -248,3 +257,6 @@ const Home = () => {
 
 export default Home;
 ```
+
+## Output:
+[!video](./src/assets/video/ReactRouterDomUsingTailwindCSS.mp4)
