@@ -259,4 +259,4 @@ export default Home;
 ```
 
 ## Output:
-[!video](./src/assets/video/ReactRouterDomUsingTailwindCSS.mp4)
+[!video](https://youtu.be/7oWzOGsUDqk)
