@@ -259,7 +259,8 @@ export default Home;
 ```
 
 ## Output:
-<iframe src="https://giphy.com/embed/7oWzOGsUDqk" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-[![alt text](https://img.youtube.com/vi/video-id/0.jpg)](https://www.youtube.com/watch?v=7oWzOGsUDqk)
+<video src="./src/assets/ReactRouterDomUsingTailwindCSS.mp4" width="320" height="240" controls></video>
+<!-- <iframe src="https://giphy.com/embed/7oWzOGsUDqk" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+[![alt text](https://img.youtube.com/vi/video-id/0.jpg)](https://www.youtube.com/watch?v=7oWzOGsUDqk) -->
 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/7oWzOGsUDqk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 <!-- [!video](https://youtu.be/7oWzOGsUDqk) -->
